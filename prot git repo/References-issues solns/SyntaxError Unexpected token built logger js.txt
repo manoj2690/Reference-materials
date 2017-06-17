@@ -1,0 +1,23 @@
+link: https://github.com/angelozerr/angularjs-eclipse/issues/194
+
+Hi @sigudd @chudyed ,
+I have check the above post by @angelozerr after I have made my hand dirty with doing something which i dont know exactly. In my preference, above checkboxes are not selected.
+
+What I have done?
+
+Copy the latest nodejs exe
+Navigate to the following path
+C:\Users\XXXXXX.p2\pool\plugins\tern.eclipse.ide.server.nodejs.embed.win32.win32.x86_64_1.2.0.201606160856\node-v4.2.4-win32-x86_64
+Rename the original exe as a backup
+Paste the latest nodejs exe
+Now the name is same but exe is latest
+I am by far not a developer so no idea but as a wild guess it is a problem with the tern plugin embed nodejs.
+
+@chudyed
+after I set a new location of node.js like you said and run conf.js a get an error:
+Sunny@ I am expecting that you are able to run protractor through cmd prompt.
+Try to run the webdriver-manager update.
+If it does not solve the problem, then check the browser version of chrome and see if it the latest as I have see some post related to latest browser issue.
+Then, no idea....I will try to reproduce this first and will keep doing my hit and trial.
+
+Do let me know if it help.
